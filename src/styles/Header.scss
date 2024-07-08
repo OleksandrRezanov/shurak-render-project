@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 80px;
+
+  font-size: 24px;
+  line-height: 32px;
+
+  &__nav-list {
+    display: flex;
+    gap: 150px;
+  }
+
+  &__nav-list-item {
+    cursor: pointer;
+
+    &--selected {
+      border-bottom: 1px solid black;
+
+      &:hover {
+        border-color: #8E8E8E;
+      }
+    }
+
+    &:hover {
+      color: #8E8E8E;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+  height: 100%;
+  padding-left: 50px;
+
+  &__title {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+  }
+
+  &__body {
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__price-label {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+
+  &__price-value {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../img/photo.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
